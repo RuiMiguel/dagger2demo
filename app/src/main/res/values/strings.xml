@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">Dagger2demo</string>
+
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+  <string name="title_activity_splash">SplashActivity</string>
+</resources>
