@@ -1,7 +1,10 @@
-package com.gigigo.dagger2demo;
+package com.gigigo.dagger2demo.view;
 
 import android.content.Intent;
 import android.os.Bundle;
+import com.gigigo.dagger2demo.R;
+import com.gigigo.dagger2demo.presenter.SplashPresenter;
+import com.gigigo.dagger2demo.presenter.SplashView;
 import com.gigigo.dagger2demo.di.DaggerSplashComponent;
 import com.gigigo.dagger2demo.di.SplashComponent;
 import com.gigigo.dagger2demo.di.SplashModule;

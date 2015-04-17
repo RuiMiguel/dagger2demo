@@ -1,4 +1,4 @@
-package com.gigigo.dagger2demo;
+package com.gigigo.dagger2demo.presenter;
 
 import javax.inject.Inject;
 
@@ -7,7 +7,6 @@ public class MainPresenter {
 
   @Inject
   public MainPresenter() {
-    int i = 1;
   }
 
   public void doTest() {

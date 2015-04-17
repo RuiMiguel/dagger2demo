@@ -1,8 +1,8 @@
 package com.gigigo.dagger2demo.di;
 
-import com.gigigo.dagger2demo.SplashActivity;
-import com.gigigo.dagger2demo.SplashPresenter;
-import com.gigigo.dagger2demo.SplashView;
+import com.gigigo.dagger2demo.view.SplashActivity;
+import com.gigigo.dagger2demo.presenter.SplashPresenter;
+import com.gigigo.dagger2demo.presenter.SplashView;
 import dagger.Component;
 
 @PerActivityScope @Component(

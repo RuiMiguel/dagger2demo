@@ -1,4 +1,4 @@
-package com.gigigo.dagger2demo;
+package com.gigigo.dagger2demo.presenter;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -10,9 +10,7 @@ public class SplashPresenter {
   @Inject SplashView view;
 
   @Inject
-  public SplashPresenter() {
-    int i = 1;
-  }
+  public SplashPresenter() {}
 
   public void uiLoaded() {
     startTimer();

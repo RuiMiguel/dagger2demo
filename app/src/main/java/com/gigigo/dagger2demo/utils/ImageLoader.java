@@ -1,4 +1,4 @@
-package com.gigigo.dagger2demo;
+package com.gigigo.dagger2demo.utils;
 
 import android.graphics.drawable.Drawable;
 import android.widget.ImageView;

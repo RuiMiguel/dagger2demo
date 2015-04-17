@@ -1,9 +1,9 @@
 package com.gigigo.dagger2demo.di;
 
-import com.gigigo.dagger2demo.ImageLoader;
-import com.gigigo.dagger2demo.MainActivity;
-import com.gigigo.dagger2demo.MainPresenter;
-import com.gigigo.dagger2demo.MainView;
+import com.gigigo.dagger2demo.utils.ImageLoader;
+import com.gigigo.dagger2demo.view.MainActivity;
+import com.gigigo.dagger2demo.presenter.MainPresenter;
+import com.gigigo.dagger2demo.presenter.MainView;
 import dagger.Component;
 import javax.inject.Named;
 

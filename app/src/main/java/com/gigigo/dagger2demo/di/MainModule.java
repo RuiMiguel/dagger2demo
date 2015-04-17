@@ -1,7 +1,7 @@
 package com.gigigo.dagger2demo.di;
 
-import com.gigigo.dagger2demo.MainActivity;
-import com.gigigo.dagger2demo.MainView;
+import com.gigigo.dagger2demo.view.MainActivity;
+import com.gigigo.dagger2demo.presenter.MainView;
 import dagger.Module;
 import dagger.Provides;
 

@@ -3,7 +3,7 @@ package com.gigigo.dagger2demo.di;
 import android.app.Application;
 import android.content.Context;
 import com.gigigo.dagger2demo.App;
-import com.gigigo.dagger2demo.ImageLoader;
+import com.gigigo.dagger2demo.utils.ImageLoader;
 import com.squareup.picasso.Picasso;
 import dagger.Component;
 import javax.inject.Named;

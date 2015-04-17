@@ -1,8 +1,9 @@
-package com.gigigo.dagger2demo;
+package com.gigigo.dagger2demo.view;
 
 import android.location.LocationManager;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import com.gigigo.dagger2demo.App;
 import com.gigigo.dagger2demo.di.ActivityComponent;
 import com.gigigo.dagger2demo.di.ActivityModule;
 import com.gigigo.dagger2demo.di.DaggerActivityComponent;

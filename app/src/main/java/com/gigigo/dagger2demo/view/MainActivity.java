@@ -1,13 +1,13 @@
-package com.gigigo.dagger2demo;
+package com.gigigo.dagger2demo.view;
 
-import android.location.LocationManager;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
-import com.gigigo.dagger2demo.di.ActivityComponent;
-import com.gigigo.dagger2demo.di.AppComponent;
+import com.gigigo.dagger2demo.utils.ImageLoader;
+import com.gigigo.dagger2demo.presenter.MainPresenter;
+import com.gigigo.dagger2demo.presenter.MainView;
+import com.gigigo.dagger2demo.R;
 import com.gigigo.dagger2demo.di.DaggerMainComponent;
 import com.gigigo.dagger2demo.di.MainComponent;
 import com.gigigo.dagger2demo.di.MainModule;
